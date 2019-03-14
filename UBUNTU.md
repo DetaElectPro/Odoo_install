@@ -26,9 +26,9 @@ sudo npm install -g less less-plugin-clean-css
 sudo apt-get install node-less
 ```
 
-###الخطوة الـ4
+###الخطوة الـ4.
 اعداد قاعدة البيانات
-"postgresql"
+"postgresql".
 
 ```
 sudo apt-get install python-software-properties
@@ -72,7 +72,7 @@ exit
 sudo adduser --system --home=/opt/odoo --group odoo
 ```
 ## الخطوة الـ6
-تنزيل و تثبيت الاودة 11.
+تنزيل و تثبيت الاودو 11.
 ```
 cd /opt/odoo
 
