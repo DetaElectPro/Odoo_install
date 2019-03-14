@@ -86,3 +86,29 @@ git clone https://www.github.com/odoo/odoo --depth 1 --branch 11.0 –single-bra
 
 exit
 ```
+ اضافة ملفات الـ
+ Log.
+ ```
+ sudo mkdir /var/log/odoo
+
+sudo chown -R odoo:root /var/log/odoo
+```
+### الخطوة الـ7
+تغير علي ملف الاعدادات الخاص بالاودو.
+```
+sudo nano /etc/odoo.conf
+#Copy and paste below content in config file , write correct addons paths
+[options]
+; This is the password that allows database operations:
+; admin_passwd = admin
+db_host = False
+db_port = False
+db_user = odoo
+db_password = False
+logfile = /var/log/odoo/odoo-server.log
+addons_path = /opt/odoo/addons,/opt/odoo/odoo/addons
+```
+احفظ التعديلات وقم بتنقيذ الامر التالي من اجل الحصول علي صلاحياتنا الخاصة.
+```
+sudo chown odoo: /etc/odoo.conf
+```
