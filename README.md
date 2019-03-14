@@ -3,4 +3,5 @@
 شرح كيفية تثبيت الـ
   Odoo.
 
-## On Linux
+## Ubuntu
+* [how to](https://github.com/DetaElectPro/Odoo_install/blob/master/UBUNTU.md)
